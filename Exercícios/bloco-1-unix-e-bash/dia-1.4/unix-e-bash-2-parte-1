@@ -1,0 +1,33 @@
+cd unix_tests/
+touch skills2.txt
+touch skills2.txt
+	Internet
+	Unix
+	Bash
+	ctrl+D
+cat >> skills2.txt
+	linha 1
+	linha 2
+	linha 3
+	linha 4
+	linha 5
+	ctrl + D
+wc -l skills2.txt
+sort < skills2.txt | head -3 > top_skills.txt
+ou
+cat skills2.txt | sort | sed -n '1,3p' > top_skills.txt
+touch phrases2.txt
+cat > phrases2.txt
+	"O Brasil é uma brasa mora"
+	"Ai meu brasil, país querido"
+	"put a smile on that face"
+	"SHUT UP"
+	ctrl + D
+grep -i br phrases2.txt | wc -l 
+grep -iv br phrases2.txt | wc -l
+cat >> phrases2.txt
+	Australia
+	Berlim
+	ctrl + D
+cat phrases2.txt countries.txt > bunch_of_things.txt
+sort < bunch_of_things.txt >> bunch_of_things.txt

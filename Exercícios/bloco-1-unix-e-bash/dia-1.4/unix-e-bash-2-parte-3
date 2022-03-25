@@ -1,0 +1,19 @@
+ps
+sleep 30 &
+ps
+kill -9 501480
+sleep 30
+ctrl + Z
+bg
+sleep 300 &
+sleep 200
+ctrl + Z
+sleep 100
+ctrl + Z
+jobs
+fg %1 
+ctrl + Z
+bg %4
+kill -9 501891 501892 501897
+ou
+kill %1 %2 %3
