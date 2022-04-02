@@ -1,0 +1,52 @@
+
+h1 em {
+    font-size: 40px;
+    border: 1px solid black;
+}
+h1, h3{
+    color: red;
+}
+ol {
+    background-color: yellow;
+}
+ol li:nth-child(2n){
+    color: green;
+}
+ol li:nth-child(2n +1) {
+    text-transform: uppercase;
+}
+li {
+    font-size: 20px;
+}
+li em {
+    font-weight: 600;
+}
+ul:nth-of-type(1) li:nth-child(-n + 3){
+    color: blue
+}
+ul:nth-of-type(1) li:nth-of-type(2){
+    background-color:pink;
+}
+ul:nth-of-type(1) li:nth-of-type(3){
+    background-color:pink;
+}
+ul:nth-of-type(2) li:nth-of-type(1) a:hover{
+    font-weight: 600;
+    color: orange;
+}
+ul:nth-of-type(2) li:nth-of-type(2) a:hover{
+    font-weight: 600;
+    color: green;
+}
+ul:nth-of-type(2) li:nth-of-type(3) a:hover{
+    font-weight: 600;
+    color: black;
+}
+ul:nth-of-type(2) li:nth-of-type(4) a:hover{
+    font-weight: 600;
+    color: yellow;
+}
+ul:nth-of-type(2) li:nth-of-type(5) a:hover{
+    font-weight: 600;
+    color: green;
+}
