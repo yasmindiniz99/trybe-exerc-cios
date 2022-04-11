@@ -1,0 +1,29 @@
+//Passo a passo para se vestir para ir a uma festa
+//ambientação: você está no quarto, deitado na cama, olhando a hora, quando percebe que está se aproximando a hora de se vestir:
+1 - Se senta na cama
+2 - Se levanta da cama
+3 - caminha até a mesa do quarto
+4 - Conecta o celular no carregador já plugado no computador que está ligado
+5 - Coloca o celular em cima da mesa virado de cabeça para baixo
+6 - Caminha até a porta
+7 - Abre a porta
+8 - Caminha até o banheiro
+9 - Fecha a porta
+10 - Tranca a porta
+11 - Retira a roupa
+12 - Entra no box
+13 - Liga o chuveiro
+14 - Ajusta a temperatura{
+15 - Verifica se a água está confortavel
+}
+16 - Entra debaixo do chuveiro
+17 - Pega o sabonete
+18 - Se ensaboa
+19 - Coloca o sabonete de volta no lugar
+20 - Enxagua
+21 - Pega o shampoo
+22 - Passa nos cabelos
+23 - Coloca o shampoo onde estava
+24 - Esfrega até formar espuma
+25 - Pare de esfregar
+26 - 
